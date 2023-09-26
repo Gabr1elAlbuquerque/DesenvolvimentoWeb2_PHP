@@ -12,7 +12,7 @@ session_start();
 
     <form action="salvaTime.php">
         <label for="">Escolha o time:</label>
-        <select name="time" id="">Escolha o time
+        <select name="time1" id="">Escolha o time
             <option value="Flamengo">Flamengo</option>
             <option value="Palmeiras">Palmeiras</option>
             <option value="Fluminense">Fluminense</option>
@@ -20,7 +20,17 @@ session_start();
             <option value="São Paulo">São Paulo</option>
         </select><br>    
         <label for="">Digite os Pontos:</label>
-        <input type="text" name="pontos"><br>
+        <input type="text" name="pontos1"><br>
+        <label for="">Escolha o time:</label>
+        <select name="time2" id="">Escolha o time
+            <option value="Flamengo">Flamengo</option>
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Fluminense">Fluminense</option>
+            <option value="Corinthians">Corinthians</option>
+            <option value="São Paulo">São Paulo</option>
+        </select><br>
+        <label for="">Digite os Pontos:</label>
+        <input type="text" name="pontos2"><br>
         <input type="submit" value="Enviar">
     </form>
 </body>
